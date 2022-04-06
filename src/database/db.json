@@ -1,0 +1,60 @@
+{
+  "users": [
+    {
+      "name": "akram saif",
+      "username": "akramsaif",
+      "email": "akramrp7@gmail.com",
+      "phone": "9876543210",
+      "id": 1
+    },
+    {
+      "name": "imran saif",
+      "username": "imransaif",
+      "email": "userimran05@gmail.com",
+      "phone": "9876543210",
+      "id": 2
+    },
+    {
+      "name": "ak",
+      "username": "ak",
+      "email": "ak@gmail.com",
+      "phone": "9876543210",
+      "id": 4
+    },
+    {
+      "name": "adeedb",
+      "username": "adeebsaif",
+      "email": "adeebsaif@gmail.com",
+      "phone": "7894561230",
+      "id": 5
+    },
+    {
+      "name": "zameer",
+      "username": "zameer",
+      "email": "zameer@gmail.com",
+      "phone": "5645454646",
+      "id": 6
+    },
+    {
+      "name": "asif",
+      "username": "asif",
+      "email": "asif@gmail.com",
+      "phone": "465465465465",
+      "id": 7
+    },
+    {
+      "name": "sadas1",
+      "username": "dsad1",
+      "email": "sada1@dddd.ddd",
+      "phone": "2142342341",
+      "id": 8
+    },
+    {
+      "name": "asdad",
+      "username": "asdasd",
+      "email": "asdsad@gmail.com",
+      "phone": "1234567890",
+      "id": 9
+    }
+  ]
+}
