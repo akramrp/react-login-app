@@ -9,7 +9,9 @@ import EditUser from './components/EditUser';
 import NotFound from './components/NotFound';
 import Login from './components/Login';
 import Profile from './components/Profile';
+import Footer from './components/footer/Footer';
 import PrivateComponents from './components/PrivateComponents';
+
 import TestPage from './components/TestPage';
 import TestPage2 from './components/TestPage2';
 import TestHooks from './components/TestHooks';
@@ -40,8 +42,8 @@ function App() {
           {/* <Route path="/edit/:id/:name" element={<EditUser />} exact></Route> */}  {/* pass multi param */}
           <Route path="/profile" element={<Profile />} exact></Route>
         </Route>
-
       </Routes>
+      <Footer />
     </BrowserRouter>
   )
 }
