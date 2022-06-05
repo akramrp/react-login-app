@@ -12,6 +12,7 @@ import Profile from './components/Profile';
 import Footer from './components/footer/Footer';
 import PrivateComponents from './components/PrivateComponents';
 
+import TempTestPage from './components/otherCode/TempTestPage';
 import TestPage from './components/TestPage';
 import TestPage2 from './components/TestPage2';
 import TestHooks from './components/TestHooks';
@@ -29,6 +30,7 @@ function App() {
         <Route path="/home" element={<Home />} exact></Route>
         <Route path="/add" element={<AddUser />} exact></Route>
         <Route path="/login" element={<Login />} exact></Route>
+        <Route path="/tempTestPage" element={<TempTestPage />} exact></Route>
         <Route path="/testPage" element={<TestPage />} exact></Route>
         <Route path="/testPage2" element={<TestPage2 />} exact></Route>
         <Route path="/testHooks" element={<TestHooks />} exact></Route>
