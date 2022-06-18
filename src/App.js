@@ -22,7 +22,7 @@ import ReduxCounter from './components/ReduxCounter';
 
 function App() {
   return (
-    <BrowserRouter basename='/'>
+    <BrowserRouter>
       <Navbar />
       <Routes>
         <Route path='*' element={<NotFound />} />

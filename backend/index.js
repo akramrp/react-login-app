@@ -22,8 +22,3 @@ mongoose.connect(DB_URL, { useNewUrlParser:true, useUnifiedTopology:true }).then
 }).catch((error) => {
     console.log('Error: ', error.message);
 })
-
-app.use(express.static(path.join(__dirname, '../', 'build')));
-  app.get('/*', (req, res) => {
-    res.sendFile(path.join(__dirname, '../', 'build', 'index.html'));
-})
